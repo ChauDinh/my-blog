@@ -27,7 +27,7 @@ brew install neovim
 ```
 <br />
 
-Other operating systems guide can be found here: https://github.com/neovim/neovim/wiki/Installing-Neovim
+The guides for other operating systems can be found here: https://github.com/neovim/neovim/wiki/Installing-Neovim
 
 ### 3. Configuration
 
@@ -35,7 +35,7 @@ Your configuration for neovim is stored in a file called `init.vim`. After insta
 
 #### Plugin Management
 
-Like Vim, NeoVim needs a plugin management to install all plugins you need. There some tools you can choose: `Vundle`, `Vim-Plug`, I choose `Vim-Plug` since `Vundle` doesn't maintained anymore.
+Like Vim, NeoVim needs a plugin management to install all plugins you need. There is some tools you can choose: `Vundle`, `Vim-Plug`. I choose `Vim-Plug` since `Vundle` doesn't maintained anymore.
 
 Vim-Plug: https://github.com/junegunn/vim-plug#installation
 
@@ -45,7 +45,7 @@ curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
 ```
 <br />
 
-After install, you can add plugins you need in file `init.vim`. Then you have to reload the file `init.vim` (I recommend using `:source%` instead of restarting neovim). Then you type `:PlugInstall` to allow `Vim-Plug` install all plugins you listed in the file.
+After install, you can add plugins you need in file `init.vim`. Then you have to reload the file `init.vim` (I usually use `:source%` command instead of restarting neovim). Then you type `:PlugInstall` to allow `Vim-Plug` install all plugins you listed in the file.
 
 There are 2 more command I also use: `PlugUpdate` to update plugins to newer version and `PlugClean` to uninstall plugins unlisted in the file.
 
@@ -124,4 +124,4 @@ Airline is one of my favorite tools, it supports my neovim looks like an IDE and
 
 Work perfectly inside terminal and highly configurable are the advantages of vim compared to orthers like VSCode or Sublime 3. But at the beginning, I couldn't move to NeoVim totally since I have to remember tons of command and key maps.
 
-If you use VSCode, there is an extension call Vim mode so you can install and have vim the experience on vscode. It's not bad.
+If you use VSCode, there is an extension call Vim mode so you can install and have vim the experience on vscode. It's a good way to start.
