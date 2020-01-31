@@ -4,6 +4,16 @@ module.exports = {
       resolve: `gatsby-theme-blog`,
       options: {},
     },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-figure-caption`,
+          },
+        ],
+      },
+    },
   ],
   // Customize your site metadata:
   siteMetadata: {
